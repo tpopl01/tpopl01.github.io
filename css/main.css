@@ -260,7 +260,7 @@ header {
     padding-top: 16em; }
     #header#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(/img/background.jpg);
       background-size: auto, 150%; }
       #header#header:after {
         content: "";
