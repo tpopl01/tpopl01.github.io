@@ -260,7 +260,7 @@ header {
     padding-top: 16em; }
     #header#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
       #header#header:after {
         content: "";
@@ -284,7 +284,7 @@ header {
     text-align: right; }
     #header#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
       #header#header:after {
         content: "";
@@ -308,7 +308,7 @@ header {
     background: rgba(32, 40, 51, 0.9); }
     #header#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
       #header#header:after {
         content: "";
@@ -341,7 +341,7 @@ header {
     background: rgba(32, 40, 51, 0.9); }
     #header#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
       #header#header:after {
         content: "";
@@ -365,7 +365,7 @@ header {
     width: 100%; }
     main#header {
       height: 100%;
-      background-image: url(/dist/img/background.jpg);
+      background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
       main#header:after {
         content: "";
