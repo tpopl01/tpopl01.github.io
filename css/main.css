@@ -52,7 +52,6 @@ header {
       margin-top: 0vh; }
 
 #main {
-  padding: 6em 4em 4em 4em;
   width: calc(100% - 35%); }
   #main > section {
     border-top: solid 2px _palette(border);
@@ -77,8 +76,8 @@ header {
 
 .button_holder {
   width: 100%;
-  margin-left: 0px;
-  margin-right: 0px; }
+  margin-left: 3px;
+  margin-right: 3px; }
 
 .projects {
   display: grid;
@@ -169,11 +168,11 @@ header {
     color: #000; }
 
 .btn-dark {
-  background: black;
+  background: #1e2630;
   color: #fff; }
 
 .btn-light {
-  background: #95a6bd;
+  background: #98fdf6;
   color: #333; }
 
 /* The Modal (background) */
@@ -272,7 +271,8 @@ header {
         z-index: -1;
         background: rgba(32, 40, 51, 0.9); }
   #main {
-    margin-left: 35%; } }
+    margin-left: 35%;
+    padding: 6em 4em 4em 4em; } }
 
 @media screen and (min-width: 1171px) and (max-width: 1749px) {
   .projects {
@@ -296,7 +296,8 @@ header {
         z-index: -1;
         background: rgba(32, 40, 51, 0.9); }
   #main {
-    margin-left: 35%; } }
+    margin-left: 35%;
+    padding: 6em 4em 4em 4em; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   #header {
@@ -320,15 +321,17 @@ header {
         z-index: -1;
         background: rgba(32, 40, 51, 0.9); }
   #main {
-    width: 100%; }
+    width: 100%;
+    padding: 6em 4em 4em 4em; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
   #main {
     align-items: center;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    padding: 6em 4em 4em 4em; }
     #main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -356,18 +359,26 @@ header {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main {
-    z-index: 1;
-    position: relative;
+  #main {
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    width: 100%; }
-    main#header {
+    width: 100%;
+    padding: 4em 1em 4em 1em; }
+    #main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  #header {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 4em 2em;
+    background: rgba(32, 40, 51, 0.9); }
+    #header#header {
       height: 100%;
       background-image: url(../img/background.jpg);
       background-size: auto, 150%; }
-      main#header:after {
+      #header#header:after {
         content: "";
         position: absolute;
         top: 0;
@@ -376,14 +387,5 @@ header {
         height: 100%;
         z-index: -1;
         background: rgba(32, 40, 51, 0.9); }
-    main #home h1 {
-      margin-top: 10vh; }
-    main .lg-heading {
-      margin-top: 1rem;
-      font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; }
-  #header {
-    width: 100%;
-    text-align: center;
-    background: rgba(32, 40, 51, 0.9); } }
+    grid-template-columns: repeat(1, 1fr); } }

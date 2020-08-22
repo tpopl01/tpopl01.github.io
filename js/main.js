@@ -14,7 +14,7 @@ var projects = [
     title: "Third Person Shooter",
     desc: "A third person shooter made in Unity.",
     desc_full:
-      "This is a third person shooter created in Unity. It makes extensive use of interfaces and inheritence. During development I developed the following skills...",
+      "This is a third person shooter created in Unity. It makes extensive use of interfaces and inheritence. During development I developed the following skills: Inverse Kinematics, C#, Unity, SUVAT equations, behaviour trees, Scriptable Objects, Singletons, extensive use of interfaces.",
     img_path: "img/projects/project1.jpg",
     vid_url: "https://www.youtube.com/embed/12j29ecMckU",
     git_link: "https://github.com/tpopl01/SBF",
@@ -25,7 +25,7 @@ var projects = [
   {
     title: "Prehistoric RPG",
     desc: "Role Playing Game.",
-    desc_full: "...",
+    desc_full: "This game features items, dialogue trees, questing, climb system, realistic animal behaviours, AI routines and a build system. During development I developed the following skills: Inverse Kinematics, C#, Unity, SUVAT equations, finite state machine, Scriptable Objects, Singletons, JSON to save and store data.",
     img_path: "img/projects/project2.jpg",
     vid_url: "https://www.youtube.com/embed/FLavhtvQkXA",
     git_link: "",
@@ -36,7 +36,7 @@ var projects = [
   {
     title: "Flask Ecommerce Horticulture Site",
     desc:
-      "A Python-Flask webapp that utilises pagination, blueprints, CRUD, sqlalchemy...",
+      "A Python-Flask webapp made for an ecommerce plant site.",
     desc_full: "A Python-Flask webapp made with Python, mySql, HTML and CSS. It utilises pagination, CRUD operations, blueprints, logins, wtf-forms, sqlalchemy, password hashing with salt, sql injection protection via sqlalchemy quoting special characters, CSRF and access authorization.",
     img_path: "img/projects/project3.jpg",
     vid_url: "https://www.youtube.com/embed/eky3GkzkA6I",
@@ -48,11 +48,11 @@ var projects = [
   {
     title: "Powered Wheelchair Simulator",
     desc:
-      "A powered wheelchair simulator designed to help children learn to use a powered wheelchair",
-    desc_full: "...",
+      "A powered wheelchair simulator designed to help children learn to use a powered wheelchair.",
+    desc_full: "A powered wheelchair simulator designed to help children learn to use a powered wheelchair. During development I developed the following skills: VR, C#, Unity, ability to work alongside and communicate with an Occupational Therapist in development of this product.",
     img_path: "img/projects/project4.jpg",
     vid_url: "https://www.youtube.com/embed/w0Kn6GIXVHg",
-    git_link: "",
+    git_link: "https://github.com/tpopl01/goldsmiths-year3-wheelchair",
     project_link:"",
     tags: ["Unity", "C#", "Blender", "Json", "VR", "Substance Painter"],
     is_work: false,
@@ -60,11 +60,11 @@ var projects = [
   {
     title: "Allergen Detector",
     desc:
-      "A small android app that scans barcodes to determine the allergens in products. During development I worked in a small group utilising the agile method.",
-    desc_full: "...",
+      "A small android app that scans barcodes to determine the allergens in products. During development I worked in a small group utilising the agile method and scrums.",
+    desc_full: "This app scans barcodes to determine if it contains the allergen the user specifies they have. This project made use of: MVC, group work (scrum and agile), API access (openFoodFacts), Java, JSON, MySQL, database.",
     img_path: "img/projects/project5.jpg",
     vid_url: "",
-    git_link: "",
+    git_link: "https://github.com/tpopl01/allergyproject",
     project_link:"",
     tags: ["Java", "Android Studio", "Json", "Firebase"],
     is_work: false,
@@ -73,9 +73,9 @@ var projects = [
     title: "Salway Preschool Webapp",
     desc: "A webapp designed for Salway Preschool.",
     desc_full:
-      "This webapp is designed to be clear and informative. I created custom plugins using guttenberg blocks and a theme specific to the website. During development I developed an understanding of PHP.",
+      "This webapp is designed to be clear and informative. I created custom plugins using guttenberg blocks and a theme specific to the website. This website was designed to be familiar for and modifiable by the preschool teachers. Therefore it was designed in WordPress. During development I developed an understanding of PHP and effective communication with clients during lockdown.",
     img_path: "img/projects/work1.jpg",
-    git_link: "",
+    git_link: "https://github.com/tpopl01/wordpress-preschool-plugins",
     project_link:"http://salwaychristianpreschool.org.uk/",
     vid_url: "",
     tags: ["PHP", "JavaScript", "HTML", "CSS"],
@@ -174,7 +174,7 @@ function loadItems(i, parent) {
     var project_link = document.createElement("a");
     project_link.href = projects[i].project_link;
     project_link.innerHTML = "Project ";
-    project_link.className = "btn-dark tag";
+    project_link.className = "btn-light";
     var project_text = document.createElement("i");
     project_text.className = "fas fa-eye";
     div_button_holder.appendChild(project_link);
